@@ -67,7 +67,7 @@ public String getcelldata(int sheetnumber,int rownum,int cellnum)
 	}
 	else
 	{
-		data=wb.getSheetAt(sheetnumber).getRow(cellnum).getCell(cellnum).getStringCellValue();
+		data=wb.getSheetAt(sheetnumber).getRow(rownum).getCell(cellnum).getStringCellValue();
 	
 	}
 	return data;
